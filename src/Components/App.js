@@ -91,7 +91,6 @@ class App extends Component {
   }
 
   render() {
-    // localStorage.setItem('userData', JSON.stringify(DataUser))
     var ketqua = [];
     this.state.data.forEach((item) => {
       if(item.name.indexOf(this.state.searchText) !== -1) {
